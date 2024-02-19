@@ -1,0 +1,19 @@
+1708359929675	geckodriver	INFO	Listening on 127.0.0.1:56505
+1708359932739	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "56506" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Cliente\\AppData\\Local\\Temp\\rust_mozprofileGVEt1O"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1708359933083	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1708359933191	Marionette	INFO	Listening on port 56516
+WebDriver BiDi listening on ws://127.0.0.1:56506
+Read port: 56516
+1708359933410	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:56506/devtools/browser/f4c74e63-6e3f-42c2-ac3a-e88707b6c926
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://www.automationpractice.pl."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://www.automationpractice.pl."
+1708359945928	Marionette	INFO	Stopped listening on port 56516
+JavaScript warning: http://www.automationpractice.pl/themes/default-bootstrap/js/modules/blocklayered/blocklayered.js, line 652: Script terminated by timeout at:
+getUrlParams@http://www.automationpractice.pl/themes/default-bootstrap/js/modules/blocklayered/blocklayered.js:652:26
+initLocationChange/<@http://www.automationpractice.pl/themes/default-bootstrap/js/modules/blocklayered/blocklayered.js:629:6
+
+Dynamically enable window occlusion 1

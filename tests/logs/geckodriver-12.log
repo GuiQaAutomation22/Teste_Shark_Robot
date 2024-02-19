@@ -1,0 +1,26 @@
+1708362949055	geckodriver	INFO	Listening on 127.0.0.1:59254
+1708362952112	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "59255" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Cliente\\AppData\\Local\\Temp\\rust_mozprofileal27JQ"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1708362952424	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1708362952512	Marionette	INFO	Listening on port 59264
+Read port: 59264
+WebDriver BiDi listening on ws://127.0.0.1:59255
+1708362952595	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:59255/devtools/browser/92a291b4-f092-45ff-bcbf-2cd16e6c7685
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://www.automationpractice.pl."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://www.automationpractice.pl."
+1708362982464	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+1708362984738	Marionette	INFO	Stopped listening on port 59264
+Dynamically enable window occlusion 1
+console.error: services.settings: 
+  Message: NetworkError: Network error: TypeError: NetworkError: Network request failed
+  Stack:
+    APIError@resource://services-settings/RemoteSettingsClient.sys.mjs:107:1
+NetworkError@resource://services-settings/RemoteSettingsClient.sys.mjs:111:5
+_adjustedError@resource://services-settings/RemoteSettingsClient.sys.mjs:911:14
+maybeSync@resource://services-settings/RemoteSettingsClient.sys.mjs:816:38
+
+console.warn: services.settings: security-state/intermediates sync interrupted by shutdown
+console.error: (new NetworkError("Network error: TypeError: NetworkError: Network request failed", "resource://services-settings/RemoteSettingsClient.sys.mjs", 107))
