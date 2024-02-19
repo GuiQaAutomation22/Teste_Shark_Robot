@@ -13,7 +13,7 @@ ${URL}    http://www.automationpractice.pl/index.php
 *** Keywords ***
 Abrir o navegador
     Open Browser    about:blank    firefox
-    Set Window Size    1400    1000    # Definindo uma resolução menor
-   # Maximize Browser Window
+   # Set Window Size    1400    1000    # Definindo uma resolução menor
+    Maximize Browser Window
 Fechar navegador
     Close Browser
