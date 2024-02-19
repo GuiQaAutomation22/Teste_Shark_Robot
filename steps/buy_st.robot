@@ -33,8 +33,6 @@ E altero o tamanho
    
 E preencho o endereco de entrega
     Wait Until Element Is Visible     ${ADRESS.CP_FIRST_NAME}    8
-    # Click Element    ${ADRESS.CP_FIRST_NAME}
-    # Click Element    ${ADRESS.CP_LAST_NAME}
     Input Text    ${ADRESS.CP_ADRESS}    ${ADRESS1}
     Input Text    ${ADRESS.CP_CITY}    ${CITY}
     Click Element    ${ADRESS.CP_STATE}
@@ -42,7 +40,6 @@ E preencho o endereco de entrega
     Input Text    ${ADRESS.CP_HOME_PHONE}    ${HOME_PHONE}
     Input Text    ${ADRESS.CP_MOBILE_PHONE}    ${MOBILE_FONE}
     Input Text    ${ADRESS.CP_ADDITIONAL_INFORMATION}    ${ADDITIONAL_INFORMATION}
-    # Click Element    ${ADRESS.CP_TITLE_FUTURE_REFERENCE}
     Click Element    ${ADRESS.BTN_SAVE}
     
     
