@@ -1,0 +1,27 @@
+1708370220568	geckodriver	INFO	Listening on 127.0.0.1:63772
+1708370223625	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "63773" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Cliente\\AppData\\Local\\Temp\\rust_mozprofile9SIZ9X"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1708370223977	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1708370224092	Marionette	INFO	Listening on port 63783
+WebDriver BiDi listening on ws://127.0.0.1:63773
+Read port: 63783
+1708370224300	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:63773/devtools/browser/972499b8-3d01-4624-87fa-459b57fb8d03
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://www.automationpractice.pl."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://www.automationpractice.pl."
+1708370254036	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+1708370255485	Marionette	INFO	Stopped listening on port 63783
+Dynamically enable window occlusion 1
+console.error: services.settings: 
+  Message: NetworkError: Network error: TypeError: NetworkError: Network request failed
+  Stack:
+    APIError@resource://services-settings/RemoteSettingsClient.sys.mjs:107:1
+NetworkError@resource://services-settings/RemoteSettingsClient.sys.mjs:111:5
+_adjustedError@resource://services-settings/RemoteSettingsClient.sys.mjs:911:14
+maybeSync@resource://services-settings/RemoteSettingsClient.sys.mjs:816:38
+
+console.warn: services.settings: main/public-suffix-list sync interrupted by shutdown
+console.warn: services.settings: main/search-default-override-allowlist sync interrupted by shutdown
+console.error: (new AbortError("IndexedDB: main/regions getLastModified() IndexedDB:  execute() A request was aborted, for example through a call to IDBTransaction.abort.", "resource://services-settings/IDBHelpers.sys.mjs", 16))
