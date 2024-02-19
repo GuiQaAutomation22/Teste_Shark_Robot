@@ -1,6 +1,6 @@
 *** Settings ***
 Library    SeleniumLibrary
-#Library    FakerLibrary
+Library    FakerLibrary
 Resource    ../elements/buy_ets.robot
 Resource    ../variables/global_variables_ets.robot
 Resource    ../elements/sign_in_ets.robot

@@ -18,8 +18,8 @@ E clico em create an account
 Então vejo uma mensagem de erro informando que o email é inválido
     Wait Until Element Is Visible    //li[contains(.,'Invalid email address.')]    6s
 Quando digito um email válido no campo de email
-  #  ${EMAIL_CADASTRO}    FakerLibrary.Free Email
-    Input Text    ${CADASTRO.EMAIL_CAMPO_CREATE}    gumercindo@bol.com.br
+    ${EMAIL_CADASTRO}    FakerLibrary.Free Email
+    Input Text    ${CADASTRO.EMAIL_CAMPO_CREATE}    ${EMAIL_CADASTRO}
         
 Então sou redirecionado para a próxima fase do cadastro
     Wait Until Page Contains    Your personal information    6s
