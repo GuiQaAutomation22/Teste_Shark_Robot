@@ -13,7 +13,7 @@ ${URL}    http://www.automationpractice.pl/index.php
 *** Keywords ***
 Abrir o navegador
     Open Browser    about:blank    headlessfirefox
-    Set Window Size    1366    707    # Definindo uma resolução menor
+    Set Window Size    1366    800    # Definindo uma resolução menor
    # Maximize Browser Window
 Fechar navegador
     Close Browser
